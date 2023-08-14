@@ -1,0 +1,23 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "Backend for the blog",
+  "scripts": {
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest",
+    "typeorm": "latest"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "latest",
+    "@types/node": "latest",
+    "sqlite3": "latest",
+    "swagger-ui-express": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
