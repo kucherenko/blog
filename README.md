@@ -1,2 +1,2 @@
 # blog
-Test wordpress blog
+Test WordPress blog
