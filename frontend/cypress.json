@@ -1,0 +1,13 @@
+{
+  "viewportWidth": 1366,
+  "viewportHeight": 768,
+  "baseUrl": "http://localhost:8080",
+  "testFiles": [
+    "cypress/integration/**/*.feature"
+  ],
+  "env": {
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true
+    }
+  }
+}
