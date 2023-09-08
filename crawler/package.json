@@ -14,7 +14,12 @@
   "dependencies": {
     "csv-parser": "^3.1.1",
     "express": "^4.17.1",
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.0",
+    "helmet": "^4.6.0",
+    "express-validator": "^6.12.1",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@types/csv-parser": "^3.0.0",
