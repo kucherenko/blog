@@ -13,7 +13,6 @@ export default {
   components: {
     Posts,
   },
-  // Add component logic here
 }
 </script>
 
