@@ -1,25 +1,24 @@
 {
-  "name": "blog-backend",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Backend for the blog",
+  "description": "Telegram Bot to save links with descriptions",
+  "main": "dist/main.js",
   "scripts": {
     "start": "node dist/main.js",
-    "dev": "ts-node -r tsconfig-paths/register src/main.ts"
+    "dev": "ts-node -r tsconfig-paths/register src/main.ts",
+    "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
     "@nestjs/common": "latest",
     "@nestjs/core": "latest",
-    "reflect-metadata": "latest",
-    "rxjs": "latest",
-    "typeorm": "latest"
+    "telegraf": "latest",
+    "typeorm": "latest",
+    "reflect-metadata": "latest"
   },
   "devDependencies": {
     "@nestjs/cli": "latest",
-    "@types/node": "latest",
-    "sqlite3": "latest",
-    "swagger-ui-express": "latest",
-    "ts-node": "latest",
     "typescript": "latest",
+    "ts-node": "latest",
     "tsconfig-paths": "latest"
   }
 }
