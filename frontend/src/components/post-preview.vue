@@ -1,13 +1,16 @@
 <template>
   <div>
-    <!-- Add post preview markup here -->
+    <h2>{{ post.title }}</h2>
+    <p>Author: {{ post.author }}</p>
+    <p>Date: {{ post.date }}</p>
+    <p>{{ post.text }}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'PostPreview',
-  // Add component logic here
+  props: ['post'],
 }
 </script>
 
